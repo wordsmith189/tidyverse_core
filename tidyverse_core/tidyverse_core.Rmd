@@ -91,7 +91,6 @@ subsets datasets by column<br />using *identifiers*
 ### filter()
 subsets datasets by row<br />using *conditions*
 
-
 ---
 
 
