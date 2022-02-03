@@ -41,7 +41,7 @@ style_duo_accent(
   header_font_google = google_font("Josefin Sans"),
   text_font_google   = google_font("Montserrat", "300", "300i"),
   code_font_google   = google_font("Fira Mono"),
-  title_slide_background_image = "../images/bear.png",
+  title_slide_background_image = "images/bear.png",
   title_slide_background_color = "#734b5e",
   title_slide_text_color = "white",
   link_color = "darkblue",
@@ -51,7 +51,7 @@ style_duo_accent(
 
 ```{r xaringan-logo, echo=FALSE}
 xaringanExtra::use_logo(
-  image_url = "../images/DTA_logo.png", height = "80px"
+  image_url = "images/DTA_logo.png", height = "80px"
 )
 
 xaringanExtra::use_tile_view()
@@ -72,11 +72,11 @@ That is the case with `mutate(), select()`, and `filter()`.
 
 ]
 
-.pull-right[![A pipe.](../images/pipe.png)]
+.pull-right[![A pipe.](images/pipe.png)]
 
 ---
 class: right
-background-image: url(../images/mutant.png)
+background-image: url(images/mutant.png)
 background-size: cover
 
 <br /><br />
